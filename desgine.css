@@ -42,4 +42,16 @@ height: 50px;
 width: 150px;
 font-size: 18px;
 font-weight: 500;
+border-radius: 8px;
+ border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+
+}
+button:hover{
+    cursor: pointer;
+    color:black;
+    background-color: blue;
+    
 }
