@@ -55,3 +55,17 @@ button:hover{
     background-color: blue;
     
 }
+.istinput p label {
+    font-size: 22px;
+}
+.ndiput p label {
+    font-size: 22px;
+}
+#Weight-guide{
+    margin-top: 30px;
+    text-align: center;
+}
+#Weight-guide span{
+    font-size: 28px;
+    font-weight: 700;
+}
