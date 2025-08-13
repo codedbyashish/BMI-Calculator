@@ -69,3 +69,32 @@ button:hover{
     font-size: 28px;
     font-weight: 700;
 }
+@media (max-width: 768px) {
+  .heading span {
+    font-size: 32px;
+  }
+
+  .wrapcont {
+    width: 83%;
+    height: auto;
+    padding: 20px 15px;
+  }
+
+  button {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .istinput label,
+  .ndiput label {
+    font-size: 18px;
+  }
+
+  #Weight-guide span {
+    font-size: 20px;
+  }
+}
+#result{
+  margin-top: 20px;
+  text-align: center;
+}
