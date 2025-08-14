@@ -14,4 +14,12 @@ form.addEventListener('submit',function(e){
    }
    else{
    const bmi=(weight / ((height * height) / 10000)).toFixed(2)
-   }})
+   // show mine result 
+   if ( bmi < 18.6 ){
+      const msg="Fuel your body with love and nutrients 🍓🥑"
+    result.style.color = "black";
+    result.innerHTML=` Under weight: Your BMI is ${bmi}<br><span>${msg}</span>`;
+   }
+   }
+})
+
