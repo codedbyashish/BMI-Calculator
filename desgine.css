@@ -46,8 +46,8 @@ font-weight: 500;
 border-radius: 8px;
  border: none;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  transition: background-color 0.3s ease, transform 0.2s ease;
+ box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+transition: background-color 0.3s ease, transform 0.2s ease;
 
 }
 button:hover{
@@ -141,3 +141,7 @@ input:focus{
   margin-top: 20px;
   text-align: center;
 }
+.weight-guide tbody tr:nth-child(1) { background-color: #fff3cd; }
+.weight-guide tbody tr:nth-child(2) { background-color: #d4edda; }
+.weight-guide tbody tr:nth-child(3) { background-color: #ffeeba; }
+.weight-guide tbody tr:nth-child(4) { background-color: #f8d7da; }
