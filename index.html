@@ -6,9 +6,8 @@
  </head>
  <body>
    <form>
-   <div class="heading"> <span>
-      BMI Calculator 
-   </span>
+   <div class="heading"> 
+      Find Out Your Perfect BMI Today! 
    </div>
 <div class="wrapcont">
    <div class="istinput">
@@ -22,12 +21,36 @@
    <div id="result"></div>
    
 
-   <div id="Weight-guide">
-      <span>BMI Weight Guide</span>
-      <p>Under Weight = Less than 18.6</p>
-      <p>Normal Range = 18.6 and 24.9</p>
-      <p>OverWeight = Greater than 24.9</p>
-   </div>
+  <div class="Weight-guide">
+    <h2>BMI Weight Guide</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Category</th>
+                <th>BMI Range</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="under">
+                <td>Underweight</td>
+                <td>Less than 18.5</td>
+            </tr>
+            <tr class="normal">
+                <td>Normal Range</td>
+                <td>18.5 – 24.9</td>
+            </tr>
+            <tr class="over">
+                <td>Overweight</td>
+                <td>25 – 29.9</td>
+            </tr>
+            <tr class="obese">
+                <td>Obese</td>
+                <td>30 and above</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
     </form>
    <script src="bmi.js"></script>
  

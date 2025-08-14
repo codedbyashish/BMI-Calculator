@@ -13,11 +13,10 @@ body{
     justify-content: center;
     padding: 20px;
 }
-.heading span{
-     color:#007BFF;
-     font-size: 80px;
+.heading {
+     color:whitesmoke;
+     font-size: 50px;
      font-weight: 800;
-    
 }
 .wrapcont{
   background-color:#cce7ff;
@@ -74,15 +73,43 @@ input:focus{
 .ndiput p label {
     font-size: 22px;
 }
-#Weight-guide{
-    margin-top: 30px;
+.weight-guide {
     text-align: center;
-       color: #007BFF;
+    margin-top: 15px;
 }
-#Weight-guide span{
-    font-size: 28px;
-    font-weight: 700;
+
+.weight-guide h2 {
+    font-size: 24px;
+    color: #222;
+    margin-bottom: 10px;
 }
+
+.weight-guide table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 450px;
+    font-family: Arial, sans-serif;
+    
+}
+
+.weight-guide thead th {
+    background-color: #004085;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.weight-guide tbody td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.weight-guide tbody tr:nth-child(1) { background-color: #fff3cd; }
+.weight-guide tbody tr:nth-child(2) { background-color: #d4edda; }
+.weight-guide tbody tr:nth-child(3) { background-color: #ffeeba; }
+.weight-guide tbody tr:nth-child(4) { background-color: #f8d7da; }
+
 @media (max-width: 768px) {
   .heading span {
     font-size: 32px;

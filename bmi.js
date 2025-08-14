@@ -20,6 +20,9 @@ form.addEventListener('submit',function(e){
     result.style.color = "black";
     result.innerHTML=` Under weight: Your BMI is ${bmi}<br><span>${msg}</span>`;
    }
-   }
-})
+     }
+}
+)
+   
 
+ 
