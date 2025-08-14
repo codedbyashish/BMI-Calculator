@@ -20,6 +20,14 @@ form.addEventListener('submit',function(e){
     result.style.color = "black";
     result.innerHTML=` Under weight: Your BMI is ${bmi}<br><span>${msg}</span>`;
    }
+   else if( bmi >= 18.6 && bmi<=24.9){
+      result.style.color = "green";
+     const msg="Great job! Keep up the healthy lifestyle 🥦🏃‍♂️"
+      result.innerHTML = `Congratulations! Normal range: Your BMI is ${bmi}<br><span >${msg}</span>`;
+  
+
+
+   }
      }
 }
 )
