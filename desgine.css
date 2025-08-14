@@ -113,18 +113,21 @@ input:focus{
 @media (max-width: 768px) {
   .heading  {
     font-size: 32px;
+       line-height: 1.2;
   }
 
   .wrapcont {
     width: 83%;
     height: auto;
     padding: 20px 15px;
+    
   }
 
   button {
     height: 50px;
     width: 140px;
     font-size: 16px;
+     border-radius: 8px;
   }
 
   .istinput label,
@@ -137,10 +140,16 @@ input:focus{
     font-size: 20px;
   }
 }
-#result{
+#result {
   margin-top: 20px;
   text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 6px;
 }
+
+
 .weight-guide tbody tr:nth-child(1) { background-color: #fff3cd; }
 .weight-guide tbody tr:nth-child(2) { background-color: #d4edda; }
 .weight-guide tbody tr:nth-child(3) { background-color: #ffeeba; }
