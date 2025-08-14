@@ -28,9 +28,12 @@ form.addEventListener('submit',function(e){
 
 
    }
-     }
+   else{
+    result.style.color = "red";
+    const msg="Your journey to fitness starts today. You’ve got the power! 🌱"
+    result.innerHTML=` Over weight : Your BMI is ${bmi}<br><span>${msg}</span>`;
+   }
+
+   }
 }
 )
-   
-
- 
