@@ -7,14 +7,14 @@ A simple and responsive **Body Mass Index (BMI) Calculator** web application tha
 
 
 ### Desktop View (Initial State)
-<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/0713ac14-00c0-40c0-81a6-1a7917d040e1" />
-
+<img width="877" height="662" alt="image" src="https://github.com/user-attachments/assets/c7154180-a79a-44d2-9f7b-acd7cb9b714e" />
 
 ### Example Result
 
-<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/25b92797-fd8e-4ecf-922f-8f36c9b77e63" />
+<img width="977" height="777" alt="image" src="https://github.com/user-attachments/assets/ddc63b2a-d692-4a1e-acb3-a4006aeae57b" />
 
-<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/402d6cbf-c42b-4596-937a-534c0eaab96e" />
+![Uploading image.png…]()
+
 
 ## 🚀 Features
 - **Responsive Design**: Works smoothly on both mobile and desktop devices.
