@@ -141,6 +141,8 @@ input:focus{
   }
 }
 #result {
+  display: none; 
+  background-color: white;
   margin-top: 20px;
   text-align: center;
   font-size: 18px;
@@ -148,6 +150,7 @@ input:focus{
   padding: 10px;
   border-radius: 6px;
 }
+
 
 
 .weight-guide tbody tr:nth-child(1) { background-color: #fff3cd; }
