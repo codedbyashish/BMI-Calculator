@@ -7,6 +7,10 @@ form.addEventListener('submit',function(e){
    const result= document.querySelector('#result')
 
        result.style.display = "block";
+
+         setTimeout(() => {   
+      result.style.opacity = 1;
+    }, 50);
    if(height===''||height<=0||isNaN(height)){
      result.innerHTML=`Please give a valid height ${height}`;
    }
