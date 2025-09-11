@@ -1,5 +1,5 @@
 const form =document.querySelector('form')
-
+// function calll
 form.addEventListener('submit',function(e){
     e.preventDefault()
     const height = parseInt(document.querySelector('#Height').value);
