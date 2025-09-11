@@ -3,17 +3,20 @@
 A simple and responsive **Body Mass Index (BMI) Calculator** web application that allows users to input their height and weight to find out their BMI and corresponding weight category.
 
 ### Mobile View
-<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/7e0c8567-f25c-4587-9951-83dc3ff5300c" />
+<img width="302" height="485" alt="image" src="https://github.com/user-attachments/assets/2b9bda5e-78e4-401e-91e6-e8c3a7042dbe" />
+
 
 ### Desktop View (Initial State)
-<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/0713ac14-00c0-40c0-81a6-1a7917d040e1" />
-
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/c7154180-a79a-44d2-9f7b-acd7cb9b714e" />
 
 ### Example Result
 
-<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/25b92797-fd8e-4ecf-922f-8f36c9b77e63" />
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/ddc63b2a-d692-4a1e-acb3-a4006aeae57b" />
 
-<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/402d6cbf-c42b-4596-937a-534c0eaab96e" />
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/d569fce0-1fea-4d01-a0ba-83a465f4b1c8" />
+
+
+
 
 ## 🚀 Features
 - **Responsive Design**: Works smoothly on both mobile and desktop devices.
